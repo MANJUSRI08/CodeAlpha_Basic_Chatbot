@@ -53,6 +53,5 @@ class Chatbot:
             response = self.get_response(user_input)
             print(f"ChatBot: {response}")
 
-if __name__ == "__main__":
-    bot = Chatbot()
-    bot.start_chat()
+bot = Chatbot()
+bot.start_chat()
